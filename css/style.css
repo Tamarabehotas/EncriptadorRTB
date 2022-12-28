@@ -1,0 +1,8 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
