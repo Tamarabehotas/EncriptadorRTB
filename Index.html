@@ -71,6 +71,9 @@
             function copiar () {
             let textoEncriptado = textoResultado.value;
             navigator.clipboard.writeText(textoEncriptado);
+            alert("Su mensaje ha sido copiado");
+            textoResultado.value = '';
+            document.getElementById("noResuelto").style.visibility = "visible" ;           
             }
             
             botonEncriptar.onclick = encriptar;
